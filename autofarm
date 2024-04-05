@@ -1,20 +1,8 @@
---// 1/9/2024 - added an antisit 
---// 1/7/2024 - changed some stuff dm if broken
-
-
---[[ 
-
-releasing this as opensource because obfuscation can mess with the performance and shit
-if you skid from this atleast credit me or something
-this is coded poorly btw
-
-]]
-
 if (_G.EXC ~= nil) then
 	warn("already executed")
 	return 
 else 
-	_G.EXC = "@trans"
+	_G.EXC = "@oskarschrist"
 end
 
 
@@ -743,8 +731,8 @@ local Players = game:GetService("Players")
 local Cashiers = workspace.Cashiers
 local Player = Players.LocalPlayer
 
-if (_G.AutofarmSettings.Credits ~= "iku autofarm - by @trans") then 
-	Player:Kick("dont edit the credits in the config you stupid jew")
+if (_G.AutofarmSettings.Credits ~= "kaktus autofarm - @oskarschrist") then 
+	Player:Kick("dont edit creds fucking nigga")
 	task.wait(10)
 	Cashiers:Destroy()
 end
@@ -790,7 +778,7 @@ local LastLog = os.time()+3
 local BrokenATMs = 0
 
 local Log = function(Msg)
-	print(os.date("%X").." | iku autofarm - "..Msg)
+	print(os.date("%X").." "| kaktus autofarm -" "..Msg)
 end
 
 local IsDead = function()
