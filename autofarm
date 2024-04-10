@@ -778,7 +778,7 @@ local LastLog = os.time()+3
 local BrokenATMs = 0
 
 local Log = function(Msg)
-	print(os.date("%X").." | iku autofarm - "..Msg)
+	print(os.date("%X").." | kaktus autofarm - "..Msg)
 end
 
 local IsDead = function()
